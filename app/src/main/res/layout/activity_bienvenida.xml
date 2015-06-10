@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/fondito"
+     tools:context=".Bienvenida">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bienvenido al administrador de tarjeta"
+        android:textColor="@color/blanco"
+        android:textSize="40dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:textColor="@color/blanco"
+        android:background="@color/azul"
+        android:layout_margin="10dp"
+        android:id="@+id/botoningresar"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
