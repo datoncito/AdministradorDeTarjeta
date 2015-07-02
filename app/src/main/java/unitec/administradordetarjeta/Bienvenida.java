@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Bienvenida extends ActionBarActivity {
 
@@ -14,19 +15,18 @@ public class Bienvenida extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bienvenida);
+
+
+
+
  Button boton= (Button) findViewById(R.id.botoningresar);
        //Manejo del evento
       boton.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
 
-              Intent i = new
-                      Intent(getApplicationContext(),Login.class);
-              startActivity(i);
-              finish();
           }
       });
-
 
     }
 
